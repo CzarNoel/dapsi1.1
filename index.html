@@ -26,16 +26,18 @@
     color: #ffffff;
   }
   .bg-3 { 
-    background-color: #ffffff; /* White */
+    background-color: #24252a; /* White */
     color: #555555;
+    padding-bottom: 15px;
   }
   .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
+    background-color: #24252a; /* Black Gray */
     color: #fff;
+    font-color: #3e69b1;
   }
   .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 80px;
+    padding-bottom: 10px;
   }
   .navbar {
     padding-top: 15px;
@@ -62,6 +64,50 @@
     .logo {
   margin-right: auto;
   margin-top: -4px !important;
+}
+
+li {
+    text-align: center;
+    border-top: 5px;
+    padding-top: 15px;
+}
+
+.idealizador {
+    border-radius: 50%;
+    width: 15%;
+     height:30%;
+}
+
+.imgcointeridealizador {
+    width: 30%;
+    padding-top: 15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgcointeridealizadordescrip {
+    font-size: 13px;
+    
+}
+
+.col-sm-4 {
+    padding-bottom: 70px;
+}
+
+.container-fluid bg-3 text-center {
+    background-color: #24252a;
+    font-color: #e7e7e7
+}
+
+.contatocor {
+        color: #3e69b1;
+
+}
+
+.margincontato {
+        color: #3e69b1;
+
 }
     
   </style>
@@ -94,35 +140,53 @@
 <div class="container-fluid bg-1 text-center">
   <h3 class="margin">PROJETO</h3>
   <img src="https://i.postimg.cc/t4CQv3nb/Pngtree-network-bitcoin-technology-blockchain-big-4034259.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3>A cultura da saúde mental começa com conhecimento. Traduziremos o mesmo em insights para futuras tomadas de deciões e humanização. </h3>
+  <h3>A cultura da saúde mental começa com conhecimento. Traduziremos o mesmo em insights para futuras tomadas de decisões e humanização. </h3>
+  <ul>
+    <li>Psicologia Organizacional</li>
+    <li>Ética CFP</li>
+    <li>Analistas de Dados</li>
+    <li>Insights poderosos</li>
+
+    
+  </ul>
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
   <h3 class="margin">Sobre</h3>
   <p>Nascemos com a intenção de trazer a tecnologia ao serviço da Psicologia Organizacional, utilizando como fundamentos, sua ética dentro das organizações. </p>
-  <a href="#" class="btn btn-default btn-lg">
+
+      <div class="imgcointeridealizador">
+        <hr style="width:50%;text-align:center;margin-left:"> 
+        <img src="https://i.postimg.cc/hvc10qhW/Whats-App-Image-2020-10-08-at-21-47-45.jpg" class="idealizador" style="display:inline" alt="Bird" width="350" height="350">
+        <p>Leonardo Zara</p>
+        <p class="imgcointeridealizadordescrip">Graduando Psicologia UNICURITIBA</p>
+        <p class="imgcointeridealizadordescrip">Estudante de Programação</p>     
+    </div>
+  </div>
+    
+  
 
   </a>
 </div>
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Contato</h3><br>
+  <h3 class="margincontato">Contato</h3><br>
   <div class="row">
     <div class="col-sm-4">
-      <p>(11) 94148-0410</p>
+      <p class="contatocor">(11) 94148-0410</p>
       <!--<img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">-->
     </div>
     <div class="col-sm-4"> 
-      <p>dapsi@admin.com</p>
+      <p class="contatocor">dapsi@admin.com</p>
       <!--<img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">-->
     </div>
     <div class="col-sm-4"> 
-      <p>Curitiba - Paraná</p>
+      <p class="contatocor">Curitiba - Paraná</p>
       <!--<img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image"> -->
     </div>
-  </div>
+
 </div>
 
 <!-- Footer -->
