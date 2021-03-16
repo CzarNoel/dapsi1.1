@@ -1,7 +1,7 @@
 ![alt text](https://i.postimg.cc/SxqZg7w5/logo-dapsi.png)
 # Projeto daPSI
 
-- [Acessar Site](http://bit.ly/dapsi)
+- [Acessar página do projeto](http://bit.ly/dapsi)
 
 ---
 
