@@ -2,6 +2,7 @@
 # Projeto daPSI
 
 - [Acessar página do projeto](http://bit.ly/dapsi)
+- http://bit.ly/dapsi
 
 ---
 
